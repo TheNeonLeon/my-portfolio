@@ -1,9 +1,9 @@
 <template>
-  <div id="app">
-    <div data-aos="fade-right" data-aos-duration="1000" id="wrapper">
+  <div data-aos="fade-right" data-aos-duration="1000" id="app">
+    <div id="wrapper">
       <h1 class="name">Hello my name is Leon Listo</h1>
       <h1 class="title-info">I'm a Front-end developer</h1>
-      <button class="title-btn"><h2>Know more</h2> </button>
+      <button v-scroll-to="'#about'" class="title-btn"><h2>Know more</h2> </button>
     </div>
       <About />
   </div>

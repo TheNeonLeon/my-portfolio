@@ -15,6 +15,16 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+#about{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  gap: 0px 0px;
+}
+h1{
+  grid-row: 4/4;
+  grid-column: 3/3;
+}
 h3 {
   margin: 40px 0 0;
 }
@@ -29,4 +39,5 @@ li {
 a {
   color: #42b983;
 }
+
 </style>
