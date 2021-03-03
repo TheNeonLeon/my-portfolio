@@ -5,14 +5,16 @@
       <h1 class="title-info">I'm a Front-end developer</h1>
       <button class="title-btn"><h2>Know more</h2> </button>
     </div>
+      <About />
   </div>
 </template>
 
 <script>
-
+import About from './components/About.vue'
 export default {
   name: 'App',
   components: {
+    About
   },
   data: () => {
     return {
