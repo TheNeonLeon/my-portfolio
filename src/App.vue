@@ -33,6 +33,7 @@ export default {
 </script>
 
 <style>
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 body{
     padding: 0px;
 margin: 0px;
@@ -116,7 +117,7 @@ color: white;
   border-style: solid;
   border-color: black;
   width: 30%;
-  height: 20%;
+  height: 30%;
   margin-left: 20%;
 
 }
