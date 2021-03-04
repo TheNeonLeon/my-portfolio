@@ -23,11 +23,14 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 #about{
+  padding: 0;
+  margin: 0;
+  box-sizing: content-box;
+  width: 100%;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   grid-template-rows: 0.5fr 0.5fr;
   gap: 0px 35px;
-  border-style: solid;
   color: white;
   background-image: linear-gradient(
 135deg

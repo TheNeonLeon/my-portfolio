@@ -34,8 +34,8 @@ export default {
 
 <style>
 body{
-    padding: 0;
-margin: -1%;
+    padding: 0px;
+margin: 0px;
 
 }
 #app {
