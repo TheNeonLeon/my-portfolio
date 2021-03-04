@@ -32,6 +32,7 @@ export default {
 body{
     padding: 0;
 margin: -1%;
+
 }
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
@@ -39,7 +40,6 @@ margin: -1%;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #272342;
-  margin-top: 60px;
   padding: 0;
 margin: 0;
 }
@@ -49,6 +49,8 @@ margin: 0;
   grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
   gap: 0px 0px;
      animation: fadein 2s; 
+     min-height: 100vh;
+    height: 100vh;
 }
 
 .name{
@@ -68,8 +70,6 @@ margin: 0;
   background-color: white;
   border-style: solid;
   border-color: black;
-  margin-right: 55%;
-  margin-left: 5%;
   width: 40%;
   height: 40%;
 
@@ -80,6 +80,6 @@ margin: 0;
 
 }
 .know-more-text{
-  margin-top: 10%;
+  margin-top: 5%;
 }
 </style>
