@@ -60,12 +60,14 @@ margin: 0;
 .name{
   grid-column: 2/2;
     grid-row: 3 / 3;
+    width: 150%;
 }
 .title-info{
   grid-column: 2/2;
   grid-row: 4 / 4;
   margin-top: -3%;
   margin-left: -8.5%;
+      width: 150%;
 }
 .title-btn{
     cursor: pointer;
@@ -86,5 +88,33 @@ margin: 0;
 }
 .know-more-text{
   margin-top: 5%;
+}
+
+@media (min-width: 1300px) {
+ .title-btn{
+    cursor: pointer;
+  grid-column: 2/2;
+  grid-row: 5 / 5;
+  background-color: white;
+  border-style: solid;
+  border-color: black;
+  width: 30%;
+  height: 30%;
+  margin-left: 10%;
+ }
+}
+@media (min-width: 1600px) {
+ .title-btn{
+    cursor: pointer;
+  grid-column: 2/2;
+  grid-row: 5 / 5;
+  background-color: white;
+  border-style: solid;
+  border-color: black;
+  width: 30%;
+  height: 20%;
+  margin-left: 20%;
+
+}
 }
 </style>
