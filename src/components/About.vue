@@ -62,7 +62,7 @@ a:hover{
   grid-row: 2/2;
   grid-column: 3/3;
   padding-left: 20%;
-   width: 150%;
+   width: 200%;
   height: 100%;
 }
 .resume-btn{

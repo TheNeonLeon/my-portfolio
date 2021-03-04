@@ -79,11 +79,15 @@ margin: 0;
   width: 40%;
   height: 40%;
   margin-left: 5%;
+  transition: 0.5s;
 
 }
-.title-btn::after{
+.title-btn:hover{
     cursor: pointer;
-  background-color: linear-gradient(#000,#434343);
+  background-image: linear-gradient(
+135deg
+,#000,#434343);  
+color: white;
 
 }
 .know-more-text{
