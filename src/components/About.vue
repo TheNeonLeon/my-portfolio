@@ -45,6 +45,8 @@ a{
   text-decoration: none;
   padding: 1%;
   top: 10%;
+    transition: 0.3s;
+
   
 }
 a:hover{
