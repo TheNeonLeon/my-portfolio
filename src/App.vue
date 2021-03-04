@@ -72,6 +72,7 @@ margin: 0;
   border-color: black;
   width: 40%;
   height: 40%;
+  margin-left: 5%;
 
 }
 .title-btn::after{
