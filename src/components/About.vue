@@ -22,6 +22,9 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+p{
+  font-family: 'Roboto', sans-serif;
+}
 #about{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
