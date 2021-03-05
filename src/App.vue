@@ -32,7 +32,8 @@ export default {
   }
 </script>
 
-<style>
+<style lang="scss">
+@import '/style/variables.scss';
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 body{
     padding: 0px;

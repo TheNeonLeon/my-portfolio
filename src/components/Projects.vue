@@ -2,7 +2,7 @@
   <div class="project-wrapper">
       <h1>PROJECTS</h1>
       <h3 class="meetup">The Meetup Hub</h3>
-      <p class="meetup-text">{{project1.info1}}. {{project1.info2}}</p>
+      <p class="meetup-text">{{project1.info1}}. {{project1.info2}}. {{project1.info3}}</p>
       <a class="tdd-link" target="_blank" href="https://tdd-vue-app.herokuapp.com/#/">
       <button class="live-btn">
         <h3>See more </h3>
@@ -21,13 +21,17 @@ export default {
      project1: {
      info1: 'Built a responsive web app for various events. Worked with javascript, vuejs, vuerouter, HTML, CSS, docker and unit testing with vue test utils and jest',
      info2: 'You can see upcoming events from a static JSON file in a user-friendly way',
+     info3: 'Data is saved in localStorage'
      }
     }
  }
 }
 </script>
 
-<style>
+<style lang="scss">
+
+@import '/style/variables.scss';
+
 .live-btn{
  cursor: pointer;
  width: 40%;
@@ -86,6 +90,8 @@ h1{
   grid-column: 2/2;
   grid-row: 2/2;
   top: 40%;
+  letter-spacing: $letter-spacing;
+
 }
 .meetup-img{
   grid-column: 4/4;
