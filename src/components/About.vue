@@ -77,11 +77,12 @@ a:hover{
  cursor: pointer;
 }
 .portrait{
+  position: relative;
   grid-row: 2/2;
   grid-column: 2/2;
   width: 100%;
   height: 100%;
-
+  bottom: 12%;
 }
 
 </style>
