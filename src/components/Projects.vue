@@ -92,7 +92,7 @@ h1{
   grid-row: 2/2;
   width: 100%;
   height: 100%;
-  margin-top: 5%;
+  margin-top: 2.5%;
 }
 .meetup-img:hover{
   -webkit-transform: scale(1.1);
