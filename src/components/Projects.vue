@@ -2,11 +2,14 @@
   <div class="project-wrapper">
       <h1>PROJECTS</h1>
       <h3 class="meetup">The Meetup Hub</h3>
-      <p class="meetup-text">{{info1}}. {{info2}}</p>
-      <a target="_blank" href="https://tdd-vue-app.herokuapp.com/#/">
+      <p class="meetup-text">{{project1.info1}}. {{project1.info2}}</p>
+      <a class="tdd-link" target="_blank" href="https://tdd-vue-app.herokuapp.com/#/">
       <button class="live-btn">
         <h3>See more </h3>
       </button>
+      </a>
+      <a target="_blank" class="meetup-img" href="https://tdd-vue-app.herokuapp.com/#/">
+      <img class="meetup-img" v-bind:src="require(`../assets/tdd.png`)">
       </a>
   </div>
 </template>
@@ -15,9 +18,11 @@
 export default {
  data: () => {
    return{
+     project1: {
      info1: 'Built a responsive web app for various events. Worked with javascript, vuejs, vuerouter, HTML, CSS, docker and unit testing with vue test utils and jest',
-     info2: 'You can see upcoming events from a static JSON file in a user-friendly way'
-   }
+     info2: 'You can see upcoming events from a static JSON file in a user-friendly way',
+     }
+    }
  }
 }
 </script>
@@ -38,13 +43,13 @@ background-image: linear-gradient(
 135deg
 ,#000,#434343);  
 color: white;}
-a{
+.tdd-link{
   grid-row: 4/4;
   grid-column: 2/2;
   text-decoration: none;
   color: black;
 }
-a:hover{
+.tdd-link:hover{
   color: white;
 }
 .live-btn:hover{
@@ -81,5 +86,20 @@ h1{
   grid-column: 2/2;
   grid-row: 2/2;
   top: 40%;
+}
+.meetup-img{
+  grid-column: 4/4;
+  grid-row: 2/2;
+  width: 100%;
+  height: 100%;
+  margin-top: 5%;
+}
+.meetup-img:hover{
+  -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    transition:all 0.5s ease;
+    
+
 }
 </style>
