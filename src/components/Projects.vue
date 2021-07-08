@@ -3,11 +3,11 @@
       <h1>PROJECTS</h1>
       <h3 class="meetup">The Meetup Hub</h3>
       <p class="meetup-text">{{project1.info1}}. {{project1.info2}}. {{project1.info3}}</p>
-      <a class="tdd-link" target="_blank" href="https://tdd-vue-app.herokuapp.com/#/">
       <button class="live-btn">
-        <h3>See more </h3>
+        <a class="tdd-link" target="_blank" href="https://tdd-vue-app.herokuapp.com/#/">
+        <h3 class="see-more">See more </h3>
+        </a>
       </button>
-      </a>
       <a target="_blank" class="meetup-img" href="https://tdd-vue-app.herokuapp.com/#/">
       <img class="meetup-img" v-bind:src="require(`../assets/tdd.png`)">
       </a>
@@ -34,14 +34,20 @@ export default {
 
 .live-btn{
  cursor: pointer;
- width: 40%;
-  height: 45%;
+ width: 30%;
+  height: 35%;
   background-color: white;
   border-style: solid;
   border-color: black;
     transition: 0.8s;
+      grid-row: 4/4;
+  grid-column: 2/2;
+  margin-top: -2%;
     
 }
+ .see-more{
+     margin-top: 10%;
+ }
 .live-btn:hover{
 background-image: linear-gradient(
 135deg
@@ -52,6 +58,7 @@ color: white;}
   grid-column: 2/2;
   text-decoration: none;
   color: black;
+  
 }
 .tdd-link:hover{
   color: white;

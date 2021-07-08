@@ -4,7 +4,7 @@
       <h4 class="about-text">I'm a passionate Front-end developer who loves converting new ideas and concepts into code.
         I'm a visual person with an eye for good and modern design.
         <br>
-        <span class="resume-btn"><a target="_blank" href="https://www.docdroid.net/71uYz7U/leon-cvjr-pdf" class="resume-text" >Resume </a>
+        <span class="resume-btn"><a target="_blank" href="https://docdro.id/YXVHSoQ" class="resume-text" >Resume </a>
         </span>
       </h4>
       <img class="portrait" v-bind:src="require(`../assets/portrait.png`)">
