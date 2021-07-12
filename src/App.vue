@@ -7,19 +7,16 @@
       know-more-text">Know more</h3> </span>
     </div>
       <About />
-      <Projects />
   </div>
 </template>
 
 <script>
 import About from './components/About.vue'
-import Projects from './components/Projects.vue'
 
 export default {
   name: 'App',
   components: {
-    About,
-    Projects
+    About
   },
   data: () => {
     return {
