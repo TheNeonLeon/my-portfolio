@@ -4,7 +4,7 @@
       <h4 class="about-text">I'm a passionate Front-end developer who loves converting new ideas and concepts into code.
         I'm a visual person with an eye for good and modern design.
         <br>
-        <span class="resume-btn"><a target="_blank" href="https://docdro.id/b6mUpc1" class="resume-text" >Resume </a>
+        <span class="resume-btn"><a target="_blank" href="https://docdro.id/OKOsoh7" class="resume-text" >Resume </a>
         </span>
       </h4>
       <img class="portrait" v-bind:src="require(`../assets/portrait.png`)">
@@ -84,5 +84,18 @@ a:hover{
   height: 100%;
   bottom: 12%;
 }
-
+@media (max-width: 700px){
+.portrait{
+  display: none;
+}
+}
+@media (max-width: 375px){
+.about-text{
+    grid-row: 2/2;
+    grid-column: 2/4;
+    padding-left: 0;
+    width: 150%;
+    height: 80%;
+}
+}
 </style>

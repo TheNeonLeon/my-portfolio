@@ -65,7 +65,6 @@ margin: 0;
   grid-column: 2/2;
   grid-row: 4 / 4;
   margin-top: -3%;
-  margin-left: -8.5%;
       width: 150%;
 }
 .title-btn{
@@ -119,5 +118,17 @@ color: white;
   margin-left: 20%;
 
 }
+}
+@media (max-width: 900px){
+  .title-btn{
+    width: 81%;
+    height: 50%;
+  }
+  .name{
+    font-size: 25px;
+  }
+  .title-info{
+    font-size: 25px;
+  }
 }
 </style>
